@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Page</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div class="wrapper">
+    <!-- Dark Mode -->
+    <input type="checkbox" name="" id="darkmode" />
+    <div class="wrapper" id="wrapper">
+      <label for="darkmode">
+        <i class="fa-solid fa-circle-half-stroke" id="half-circle"></i>
+      </label>
       <!-- Navigation Bar -->
       <nav>
         <div class="container container1">
@@ -29,14 +41,38 @@
       <section class="hero-section">
         <div class="container container2">
           <div class="hero-text">
-            <h1>Hi, I'm <span>Nishan Lakhe</span></h1>
+            <p>Hi, I'm <b> Nishan Lakhe</b></p>
             <h1>Soft. Engineer</h1>
             <p>I love coding and love to do it</p>
             <br />
-            <button><a href="#"> Download Cv</a></button>
+            <button class="Cv-btn"><a href="#"> Download Cv</a></button>
+          </div>
+          <div class="hero-image">
+            <img src="./assets/hero-image.png" alt="hero-image" />
           </div>
         </div>
       </section>
+      <!-- Hero section end  -->
+      <!-- Banner section  -->
+      <section class="flex banner container">
+        <div class="flex Info-content">
+          <div class="flex-center icon-container">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <div>
+            <span>IT</span>
+            <p>Graduation</p>
+          </div>
+        </div>
+        <div class="Info-divider"></div>
+      </section>
+
+      <!-- Banner section end  -->
+      <!-- skill section  -->
+      <!-- Project section  -->
+      <!-- About Me section  -->
+      <!-- contact section  -->
+      <!-- footer section  -->
     </div>
   </body>
 </html>
