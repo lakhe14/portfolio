@@ -53,9 +53,6 @@
   transform: scale(1.3);
   transition: all 0.3s;
 }
-#half-circle {
-  color: black;
-}
 
 /* Applying dark mode featuures  */
 #darkmode:checked + .wrapper {
@@ -137,6 +134,8 @@ nav ul {
 .Cv-btn {
   color: #000;
   background-color: orange;
+  font-weight: bolder;
+  font-size: 1rem;
 }
 button a {
   text-decoration: none;
@@ -187,3 +186,32 @@ button a {
 }
 
 /* Banner Section End  */
+
+/* Skills Section  */
+.skill-heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-divider {
+  background: var(--color-orange);
+  width: 70px;
+  height: 2px;
+}
+
+.skill-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skill-icon1,
+.skill-icon2,
+.skill-icon3,
+.skill-icon4,
+.skill-icon5 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
