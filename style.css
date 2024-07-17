@@ -14,6 +14,9 @@
   --dark-about-me: var(--color-dark);
   --shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.464);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -71,10 +74,15 @@
 nav {
   background: var(--body-bg);
   color: var(--color);
-  min-height: 7vh;
   display: flex;
   align-items: center;
   box-shadow: var(--shadow);
+  min-height: 7vh;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 nav ul a {
@@ -402,4 +410,16 @@ footer .top a {
 }
 footer .top ul li {
   line-height: 1.5rem;
+}
+
+/* GOING Up  */
+.goUp {
+  font-size: 3rem;
+  background: var(--color-orange);
+  width: 70px;
+  height: 70px;
+  border-radius: 60%;
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
 }

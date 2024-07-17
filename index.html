@@ -21,24 +21,26 @@
         <i class="fa-solid fa-circle-half-stroke" id="half-circle"></i>
       </label>
       <!-- Navigation Bar -->
-      <nav>
-        <div class="container container1">
-          <div class="logo">LoGo</div>
-          <div class="menu">
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Skills</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- End of Navigation Bar -->
+       <header>
+        <nav>
+           <div class="container container1">
+             <div class="logo">LoGo</div>
+             <div class="menu flex">
+               <ul>
+                 <li><a href="#hero">Home</a></li>
+                 <li><a href="#skills">Skills</a></li>
+                 <li><a href="#projects">Projects</a></li>
+                 <li><a href="#About">About</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+          <!-- End of Navigation Bar -->
 
       <!-- Hero Section  -->
-      <section class="hero-section">
+      <section class="hero-section" id="hero">
         <div class="container container2">
           <div class="hero-text">
             <p>Hi, I'm <b> Nishan Lakhe</b></p>
@@ -89,7 +91,7 @@
       <!-- Banner section end  -->
       <!-- skill section  -->
 
-      <section class="skills container">
+      <section class="skills container" id="skills">
         <div class="skill-heading-container">
           <div class="skills-heading"><h2>Skills</h2></div>
           <div class="skill-divider"></div>
@@ -119,7 +121,7 @@
         </div>
       </section>
       <!-- Project section  -->
-      <section class="project container">
+      <section class="project container" id="projects">
         <div class="project-header">
           <div class="project-head"><h2>My Projects</h2></div>
           <div class="project-divider"></div>
@@ -197,7 +199,7 @@
       </section>
 
       <!-- About Me section  -->
-      <section class="About-me">
+      <section class="About-me" id="About">
         <div class="container container3">
           <div class="about-me-heading">
             <h2>About Me</h2>
@@ -235,7 +237,7 @@
       </section>
 
       <!-- contact section  -->
-       <section class="contact-section">
+       <section class="contact-section" id="contact">
         <div class="container container4">
           <div class="contact-heading">Contact</div>
           <div class="contact-divider"></div>
@@ -261,10 +263,10 @@
             <h3>Links</h3>
           
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
           <div class="social">
@@ -283,6 +285,14 @@
         </div>
 
       </footer>
+      <a href="#hero" >
+        <div class="goUp flex-center">
+          <i class="fa-solid fa-caret-up"></i>
+          
+
+        </div>
+        
+      </a>
     </div>
   </body>
 </html>
