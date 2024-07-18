@@ -361,7 +361,7 @@ button a {
 .email-section {
   border: 2px solid black;
   border-radius: 50px;
-  background: var(--color);
+  background: var(color);
   height: 60px;
   width: 250px;
   display: flex;
@@ -370,7 +370,7 @@ button a {
   font-size: 18px;
 }
 .email-section a {
-  color: white;
+  color: var(--color);
   display: flex;
   justify-content: center;
   align-items: center;
